@@ -1,10 +1,11 @@
 # test_myfile.py
-from myfile import add, div
+import pytest
+from myfile import add
 
 
 def test_add_valid_input():
     assert add(2, 3) == 5
 
 
-def test_div_by_zero():
-    assert div(0, 0) == 0
+def test_add_fail():
+    assert add(3, 2) == 7

@@ -18,4 +18,4 @@ def div(a, b):
 print(add(2, 2))
 print(sub(2, 2))
 print(mult(2, 2))
-print(div(2, 0))
+print(div(2, 2))
