@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.13'  # Specify the exact Python version you're using
+        python-version: '3.13'  
 
     - name: Install dependencies
       run: |
@@ -32,11 +32,11 @@ jobs:
         coverage run -m pytest  
         coverage report          
         coverage xml             
-      # Ensure that coverage.xml is generated in the root directory
+      
 
     - name: Upload coverage report to Codecov
       uses: codecov/codecov-action@v3
       with:
-        file: coverage.xml      # Path to the coverage report file
+        file: coverage.xml      
         token: ${{ secrets.CODECOV_TOKEN }}
-        fail_ci_if_error: true  # Fail CI if there is an error with the upload
+        fail_ci_if_error: true  
