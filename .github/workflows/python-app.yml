@@ -8,41 +8,72 @@ on:
     branches:
       - main
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.13'  
+#     - name: Set up Python
+#       uses: actions/setup-python@v4
+#       with:
+#         python-version: '3.13'  
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install coverage  
+#     - name: Install dependencies
+#       run: |
+#         python -m pip install --upgrade pip
+#         pip install -r requirements.txt
+#         pip install coverage  
 
-    - name: Run tests with coverage
-      run: |
-        coverage run -m pytest  
-        coverage report          
-        coverage xml             
+#     - name: Run tests with coverage
+#       run: |
+#         coverage run -m pytest  
+#         coverage report          
+#         coverage xml             
       
 
-    - name: Upload coverage report to Codecov
-      uses: codecov/codecov-action@v3
-      with:
-        file: coverage.xml      
-        token: ${{ secrets.CODECOV_TOKEN }}
-        fail_ci_if_error: true  
+#     - name: Upload coverage report to Codecov
+#       uses: codecov/codecov-action@v3
+#       with:
+#         file: coverage.xml      
+#         token: ${{ secrets.CODECOV_TOKEN }}
+#         fail_ci_if_error: true  
 
-    - name: Upload test results to Codecov
-      if: ${{ !cancelled() }}
-      uses: codecov/test-results-action@v1
-      with:
+#     - name: Upload test results to Codecov
+#       if: ${{ !cancelled() }}
+#       uses: codecov/test-results-action@v1
+#       with:
+#           token: ${{ secrets.CODECOV_TOKEN }}
+
+jobs:
+  unit-test:
+    name: Run unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.11
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Test with pytest
+        run: |
+          pytest --cov --junitxml=junit.xml
+    
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+      - name: Upload test results to Codecov
+        if: ${{ !cancelled() }}
+        uses: codecov/test-results-action@v1
+        with:
           token: ${{ secrets.CODECOV_TOKEN }}
