@@ -8,4 +8,4 @@ def test_add_valid_input():
 
 
 def test_add_fail():
-    assert add(3, 2) == 5
+    assert add(3, 2) == 7
