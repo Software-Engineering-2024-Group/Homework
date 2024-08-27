@@ -23,3 +23,6 @@ HW1 Link: https://txt.github.io/se24fall/hw1.html
     <td align="center"><a href="https://github.com/Jing27540"><img src="https://avatars.githubusercontent.com/u/131999715?v=4" width="75px;" alt=""/><br /><sub><b>Jing</b></sub></a><br /></td> 
 </tr>
 </table>
+
+
+![Coverage Status](https://coveralls.io/repos/github/Software-Engineering-2024-Group/Homework1/badge.svg)
