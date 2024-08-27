@@ -84,7 +84,7 @@ jobs:
 
       - name: Run tests with coverage
         run: |
-          pytest --cov=myfile --cov-report=xml
+          pytest test/test_myfile.py  --cov=myfile --cov-report=xml
 
       - name: Upload coverage to Coveralls
         run: |
