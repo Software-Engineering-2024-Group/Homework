@@ -18,7 +18,7 @@ Points Covered: 1-14
 
 Course: SE24 Fall
 
-Contributors
+:sparkles: Contributors
 ---
 <table>
   <tr>
