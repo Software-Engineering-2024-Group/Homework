@@ -10,6 +10,7 @@
 [![codecov](https://codecov.io/github/Software-Engineering-2024-Group/Homeworks1/branch/main/graph/badge.svg?token=UNU21ZEC8U)](https://codecov.io/github/Software-Engineering-2024-Group/Homeworks1)
 
 ## Description
+
 This repository contains the solutions and code implementations for Homework Assignment 1 (HW1) of the SE24 Fall course. This assignment covers a range of topics, from basic Git operations to more advanced tasks involving Python programming, testing, and CI/CD workflows.
 
 HW1 Link: https://txt.github.io/se24fall/hw1.html
