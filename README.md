@@ -30,4 +30,4 @@ Course: SE24 Fall
 </table>
 
 
-![Coverage Status](https://coveralls.io/repos/github/Software-Engineering-2024-Group/Homework1/badge.svg)
+
