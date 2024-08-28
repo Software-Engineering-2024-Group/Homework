@@ -9,6 +9,8 @@
 [![Python application](https://github.com/Software-Engineering-2024-Group/Homeworks1/actions/workflows/python-app.yml/badge.svg)](https://github.com/Software-Engineering-2024-Group/Homeworks1/actions/workflows/python-app.yml)
 [![codecov](https://codecov.io/github/Software-Engineering-2024-Group/Homeworks1/branch/main/graph/badge.svg?token=UNU21ZEC8U)](https://codecov.io/github/Software-Engineering-2024-Group/Homeworks1)
 
+[![codecov](https://codecov.io/gh/Software-Engineering-2024-Group/Homework1/graph/badge.svg?token=UNU21ZEC8U)](https://codecov.io/gh/Software-Engineering-2024-Group/Homework1)
+
 ## Description
 
 This repository contains the solutions and code implementations for Homework Assignment 1 (HW1) of the SE24 Fall course. This assignment covers a range of topics, from basic Git operations to more advanced tasks involving Python programming, testing, and CI/CD workflows.
