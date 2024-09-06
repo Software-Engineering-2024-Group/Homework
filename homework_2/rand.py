@@ -1,8 +1,26 @@
+"""
+This module contains helper functions for generating random data.
+"""
 import subprocess
 
-def random_array(arr):
-    shuffled_num = None
-    for i in range(len(arr)):
-        shuffled_num = subprocess.run(["shuf", "-i1-20", "-n1"], capture_output=True)
-        arr[i] = int(shuffled_num.stdout)
+
+def random_array(size):
+    """
+    This function is used to generate a list of random integers.
+
+    Parameters:
+    size(int): Number of integers to generate
+
+    Returns:
+    list of int: List containing randomly generated integers.
+
+    """
+    arr = [None] * size
+    for i in range(size):
+        result = subprocess.run(
+            ["shuf", "-i1-20", "-n1"],
+            capture_output=True,
+            text=True,
+            check=True)
+        arr[i] = int(result.stdout)
     return arr
