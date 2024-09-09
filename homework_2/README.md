@@ -6,10 +6,9 @@
 ![Platform linux](https://img.shields.io/badge/Linux-✔-green)
 
 
-[![Merge_Sort application](https://github.com/Software-Engineering-2024-Group/Homeworks/homework_2/actions/workflows/python-app.yml/badge.svg)](https://github.com/Software-Engineering-2024-Group/Homeworks/homework_2/actions/workflows/merge_sort.yml)
+[![Merge_Sort](https://img.shields.io/github/workflow/status/Software-Engineering-2024-Group/Homework/homework_2/merge_sort)](https://github.com/Software-Engineering-2024-Group/Homeworks/homework_2/actions/workflows/merge_sort.yml)
 
-
-[![codecov](https://codecov.io/gh/Software-Engineering-2024-Group/Homeworks/homework_2/graph/badge.svg?token=UNU21ZEC8U)](https://codecov.io/gh/Software-Engineering-2024-Group/Homeworks/homework_2)
+[![Codecov](https://codecov.io/gh/Software-Engineering-2024-Group/Homeworks/homework_2/graph/badge.svg?token=UNU21ZEC8U)](https://codecov.io/gh/Software-Engineering-2024-Group/Homeworks/homework_2)
 
 
 ## Description
