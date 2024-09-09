@@ -1,0 +1,50 @@
+name: Merge_Sort
+
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    name: Run static analysis and tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch the full history for accurate coverage reporting
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install autopep8 flake8 pylint pytest pytest-cov  # Install testing and coverage tools
+
+      - name: Run Custom Analysis Script
+        run: ./run_analysis.sh # Execute the custom analysis script
+
+      - name: Run tests
+        run: pytest --cov # Run tests with coverage
+
+      - name: Upload coverage results to Codecov
+        if: always()
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }} # Codecov token
+
+      - name: Upload static analysis traces
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: post_traces
+          path: post_traces/ # Path to static analysis traces

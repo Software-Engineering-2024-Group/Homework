@@ -1,11 +1,22 @@
-# Homework 1 
+# Homework 2 
+
+## Badges
+![Language python](https://img.shields.io/badge/Python-3.13-blue)
+![License bsd-2](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Platform linux](https://img.shields.io/badge/Linux-✔-green)
+
+
+[![Merge_Sort application](https://github.com/Software-Engineering-2024-Group/Homeworks/homework_2/actions/workflows/python-app.yml/badge.svg)](https://github.com/Software-Engineering-2024-Group/Homeworks/homework_2/actions/workflows/python-app.yml)
+
+
+[![codecov](https://codecov.io/gh/Software-Engineering-2024-Group/Homeworks/homework_2/graph/badge.svg?token=UNU21ZEC8U)](https://codecov.io/gh/Software-Engineering-2024-Group/Homeworks/homework_2)
 
 
 ## Description
 
+## Description
+
 This repository contains the solutions and code implementations for Homework Assignment 2 (HW2) of the SE24 Fall course. This assignment covers a range of topics, from basic Git operations to more advanced tasks involving Python programming, testing, and CI/CD workflows.
-
-
 
 
 Course: SE24 Fall
