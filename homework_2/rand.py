@@ -2,6 +2,7 @@
 This module contains helper functions for generating random data.
 """
 import subprocess
+import random
 
 
 def random_array(size):
