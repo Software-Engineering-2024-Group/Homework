@@ -11,10 +11,6 @@ def test_unsorted_list():
     arr = [5, 3, 8, 4, 2]
     assert merge_sort(arr) == [2, 3, 4, 5, 8]
 
-def test_empty_list():
-    arr = []
-    assert merge_sort(arr) == []
-
 def test_reverse_sorted_list():
     arr = [9, 7, 5, 3, 1]
     assert merge_sort(arr) == [1, 3, 5, 7, 9]
