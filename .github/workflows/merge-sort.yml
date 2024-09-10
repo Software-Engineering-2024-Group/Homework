@@ -31,7 +31,7 @@ jobs:
           pip install autopep8 flake8 pylint pytest pytest-cov  # Install testing and coverage tools
 
       - name: Run Custom Analysis Script
-        run: ./run_analysis.sh # Execute the custom analysis script
+        run: ../homework_2/run_analysis.sh # Execute the custom analysis script
 
       - name: Run tests
         run: pytest --cov # Run tests with coverage
@@ -47,4 +47,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: post_traces
-          path: post_traces/ # Path to static analysis traces
+          path: ../homework_2/post_traces/ # Path to static analysis traces
