@@ -1,6 +1,6 @@
 # myfile.py
 
-## simple calculator for addition, substraction, multiplicationand division
+# simple calculator for addition, substraction, multiplicationand division
 def add(a, b):
     return a + b
 

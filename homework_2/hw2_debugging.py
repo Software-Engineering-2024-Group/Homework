@@ -5,7 +5,6 @@ function `recombine` to merge two sorted arrays.
 """
 import rand
 
-
 def merge_sort(input_arr):
     """
     This function is used to sort an array using the merge sort algorithm.
