@@ -1,4 +1,4 @@
-name: Merge_Sort
+name: Merge Sort
 
 on: 
   push:
@@ -34,8 +34,7 @@ jobs:
         run: ./run_analysis.sh # Execute the custom analysis script
 
       - name: Run tests
-        run: |
-          pytest --cov=hw2_debugging  # Ensure you use the correct path or module for coverage
+        run: pytest --cov # Run tests with coverage
 
       - name: Upload coverage results to Codecov
         if: always()

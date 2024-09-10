@@ -6,7 +6,7 @@
 ![Platform linux](https://img.shields.io/badge/Linux-✔-green)
 
 
-[![Merge_Sort](https://img.shields.io/github/workflow/status/Software-Engineering-2024-Group/Homework/homework_2/merge_sort)](https://github.com/Software-Engineering-2024-Group/Homeworks/homework_2/actions/workflows/merge_sort.yml)
+[![Merge Sort](https://img.shields.io/github/workflow/status/Software-Engineering-2024-Group/Homework/homework_2/merge_sort)](https://github.com/Software-Engineering-2024-Group/Homeworks/homework_2/actions/workflows/merge-sort.yml)
 
 [![Codecov](https://codecov.io/gh/Software-Engineering-2024-Group/Homeworks/homework_2/graph/badge.svg?token=UNU21ZEC8U)](https://codecov.io/gh/Software-Engineering-2024-Group/Homeworks/homework_2)
 
