@@ -1,5 +1,5 @@
 # test/test_myfile.py
-from myfile import add
+from homework_1.myfile import add
 
 
 def test_add_valid_input():
