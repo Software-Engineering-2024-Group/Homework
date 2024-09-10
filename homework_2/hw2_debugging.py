@@ -3,7 +3,7 @@ This module implements the merge sort algorithm. It provides the `merge_sort`
 function to sort an array using the merge sort approach with the helper
 function `recombine` to merge two sorted arrays.
 """
-from homework_2 import rand
+from . import rand
 
 
 def merge_sort(input_arr):
