@@ -5,6 +5,7 @@
 ![Language python](https://img.shields.io/badge/Python-3.13-blue)
 ![License bsd-2](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Platform linux](https://img.shields.io/badge/Linux-✔-green)
+[![codecov](https://codecov.io/gh/Software-Engineering-2024-Group/Homework/graph/badge.svg?token=UNU21ZEC8U)](https://codecov.io/gh/Software-Engineering-2024-Group/Homework)
 
 ## Description
 
