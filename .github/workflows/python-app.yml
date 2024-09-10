@@ -31,6 +31,8 @@ jobs:
 
       - name: Run tests
         # Run only the file: test_myfile.py
+        env:
+          PYTHONPATH: ./homework_1
         run: pytest --cov=homework_1/test/test_myfile.py
 
       - name: Upload results to Codecov
