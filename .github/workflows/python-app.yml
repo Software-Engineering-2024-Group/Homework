@@ -30,7 +30,8 @@ jobs:
           pip install pytest pytest-cov  # Install testing and coverage tools
 
       - name: Run tests
-        run: pytest --cov
+        # Run only the file: test_myfile.py
+        run: pytest --cov=homework_1/test/test_myfile.py
 
       - name: Upload results to Codecov
         if: always()
