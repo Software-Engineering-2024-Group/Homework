@@ -33,6 +33,20 @@ jobs:
       - name: Run Custom Analysis Script
         run: homework_2/run_analysis.sh # Execute the custom analysis script
 
+      - name: Run tests
+        # Run only the file: test_homework2.py
+        env:
+          PYTHONPATH: ./homework_2  # Ensure PYTHONPATH is set correctly
+        run: |
+          pytest homework_2/test_homework2/test_hw2.py --cov=homework_2
+
+
+      - name: Upload results to Codecov
+        if: always()
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+
       # - name: Run tests
       #   # Run only the specific test file
       #   # pytest --cov=./path/to/your/test_file.py
