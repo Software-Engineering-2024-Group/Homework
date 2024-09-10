@@ -47,20 +47,20 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
 
-      # - name: Run tests
-      #   # Run only the specific test file
-      #   # pytest --cov=./path/to/your/test_file.py
-      #   run: pytest --cov # Run tests with coverage
+      - name: Run tests
+        # Run only the specific test file
+        # pytest --cov=./path/to/your/test_file.py
+        run: pytest --cov # Run tests with coverage
 
-      # - name: Upload coverage results to Codecov
-      #   if: always()
-      #   uses: codecov/codecov-action@v4
-      #   with:
-      #     token: ${{ secrets.CODECOV_TOKEN }} # Codecov token
+      - name: Upload coverage results to Codecov
+        if: always()
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }} # Codecov token
 
-      # - name: Upload static analysis traces
-      #   if: always()
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: post_traces
-      #     path: homework_2/post_traces/ # Path to static analysis traces
+      - name: Upload static analysis traces
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: post_traces
+          path: homework_2/post_traces/ # Path to static analysis traces
