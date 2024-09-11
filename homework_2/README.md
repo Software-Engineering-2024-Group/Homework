@@ -8,9 +8,9 @@
 
 # Linting Status
 
-[![AutoPep8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/autopep8.yml/badge.svg)](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/autopep8.yml)
-[![Flake8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/flake8.yml/badge.svg)](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/flake8.yml)
-[![Pylint](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/pylint.yml/badge.svg)](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/pylint.yml)
+![AutoPep8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/autopep8.yml/badge.svg)
+![Flake8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/flake8.yml/badge.svg)
+![Pylint](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/pylint.yml/badge.svg)
 
 
 ## Description

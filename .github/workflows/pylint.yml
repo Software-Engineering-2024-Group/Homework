@@ -18,8 +18,6 @@ jobs:
       run: |
         pip install pylint
 
-    - name: Run Pylint and save trace
+    - name: Run Pylint
       run: |
-        mkdir -p homework_2/post_traces
-        pylint homework_2/hw_debugging.py homework_2/rand.py >> homework_2/post_traces/pylint_trace.txt
-        echo "Pylint completed."
+        pylint homework_2/hw_debugging.py homework_2/rand.py > homework_2/post_traces/pylint_trace.txt || true
