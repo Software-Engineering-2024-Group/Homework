@@ -1,4 +1,4 @@
-name: HW2 App and Test
+name: Run HW2
 
 on: 
   push:

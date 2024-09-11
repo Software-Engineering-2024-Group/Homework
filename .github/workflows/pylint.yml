@@ -15,9 +15,8 @@ jobs:
         python-version: '3.12'
 
     - name: Install Pylint
-      run: |
-        pip install pylint
+      run: pip install pylint
 
     - name: Run Pylint
       run: |
-        pylint hw_debugging.py rand.py > homework_2/post_traces/pylint_trace.txt || true
+        pylint homework_2/hw_debugging.py homework_2/rand.py >> homework_2/post_traces/pylint_trace.txt || true

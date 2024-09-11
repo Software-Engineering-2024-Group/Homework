@@ -12,7 +12,6 @@
 ![Flake8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/flake8.yml/badge.svg)
 ![Pylint](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/pylint.yml/badge.svg)
 
-
 ## Description
 
 This folder contains the solution for Homework 2. The main tasks involve fixing the failing mergeSort implementation in hw2_debugging.py by applying recommendations from static analysis tools and autopep8. 
