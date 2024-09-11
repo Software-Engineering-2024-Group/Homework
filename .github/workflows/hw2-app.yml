@@ -1,4 +1,4 @@
-name: Merge Sort
+name: Run Homework2 App with test
 
 on: 
   push:

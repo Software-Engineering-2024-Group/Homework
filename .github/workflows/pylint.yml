@@ -1,0 +1,25 @@
+name: Run Pylint
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12'
+
+    - name: Install Pylint
+      run: |
+        pip install pylint
+
+    - name: Run Pylint and save trace
+      run: |
+        mkdir -p homework_2/post_traces
+        pylint homework_2/hw_debugging.py homework_2/rand.py >> homework_2/post_traces/pylint_trace.txt
+        echo "Pylint completed."

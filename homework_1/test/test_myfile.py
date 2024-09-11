@@ -7,4 +7,4 @@ def test_add_valid_input():
 
 
 def test_add_fail():  # correct it
-    assert add(3, 2) != 7
+    assert not(add(3, 2) == 7)
