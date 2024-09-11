@@ -1,4 +1,4 @@
-name: hw2-flake8
+name: Flake8
 
 on: [push, pull_request]
 

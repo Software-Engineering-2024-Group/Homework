@@ -1,4 +1,4 @@
-name: hw2-autopep8
+name: AutoPep8
 
 on: [push, pull_request]
 

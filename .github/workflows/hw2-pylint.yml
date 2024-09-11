@@ -1,4 +1,4 @@
-name: hw2-pylint
+name: Pylint
 
 on: [push, pull_request]
 
