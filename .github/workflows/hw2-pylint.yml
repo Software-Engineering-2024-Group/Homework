@@ -19,4 +19,4 @@ jobs:
 
     - name: Run Pylint
       run: |
-        pylint homework_2/hw_debugging.py homework_2/rand.py >> homework_2/post_traces/pylint_trace.txt || true
+        pylint homework_2/hw2_debugging.py homework_2/rand.py >> homework_2/post_traces/pylint_trace.txt || true
