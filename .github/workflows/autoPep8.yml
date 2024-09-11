@@ -20,4 +20,4 @@ jobs:
 
     - name: Run AutoPep8
       run: |
-        autopep8 --in-place --recursive homework_2/hw_debugging.py homework_2/rand.py
+        autopep8 --in-place --recursive homework_2/hw2_debugging.py homework_2/rand.py

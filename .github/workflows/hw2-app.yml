@@ -1,4 +1,4 @@
-name: Run Homework2 App with test
+name: HW2 App and Test
 
 on: 
   push:

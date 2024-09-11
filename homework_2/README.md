@@ -6,7 +6,7 @@
 
 [![codecov](https://codecov.io/gh/Software-Engineering-2024-Group/Homework/graph/badge.svg?token=UNU21ZEC8U)](https://codecov.io/gh/Software-Engineering-2024-Group/Homework)
 
-# Linting Status
+## Linting Status
 
 ![AutoPep8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/autopep8.yml/badge.svg)
 ![Flake8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/flake8.yml/badge.svg)
