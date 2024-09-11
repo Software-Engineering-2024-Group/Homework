@@ -1,4 +1,4 @@
-name: Run AutoPep8
+name: Flake8
 
 on: [push, pull_request]
 
@@ -14,9 +14,9 @@ jobs:
       with:
         python-version: '3.12'
 
-    - name: Install AutoPep8
-      run: pip install autopep8
+    - name: Install Flake8
+      run: pip install flake8
 
-    - name: Run AutoPep8
+    - name: Run Flake8
       run: |
-        autopep8 --in-place --recursive homework_2/hw2_debugging.py homework_2/rand.py || true
+        flake8 homework_2/hw_debugging.py homework_2/rand.py >> homework_2/post_traces/flake8_trace.txt || true

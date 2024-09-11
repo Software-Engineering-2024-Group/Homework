@@ -1,4 +1,4 @@
-name: Run Pylint
+name: Pylint
 
 on: [push, pull_request]
 
