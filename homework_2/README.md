@@ -8,9 +8,13 @@
 
 ## Linting Status
 
-![AutoPep8]([https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/hw2-autopep8.yml/badge.svg)
-![Flake8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/hw2-flake8.yml/badge.svg)
-![Pylint](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/hw2-pylint.yml/badge.svg)
+![AutoPep8](https://img.shields.io/github/workflow/status/Software-Engineering-2024-Group/Homeworks/hw2-autopep8?label=AutoPep8&style=flat-square&color=green)
+![Flake8](https://img.shields.io/github/workflow/status/Software-Engineering-2024-Group/Homeworks/hw2-flake8?label=Flake8&style=flat-square&color=green)
+![Pylint](https://img.shields.io/github/workflow/status/Software-Engineering-2024-Group/Homeworks/hw2-pylint?label=Pylint&style=flat-square&color=green)
+
+##![AutoPep8]([https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/hw2-autopep8.yml/badge.svg)
+##![Flake8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/hw2-flake8.yml/badge.svg)
+##![Pylint](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/hw2-pylint.yml/badge.svg)
 
 ## Description
 
