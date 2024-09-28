@@ -8,7 +8,7 @@
 
 ## Linting Status
 
-![AutoPep8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/hw2-autopep8.yml/badge.svg)
+![AutoPep8](https://github.com/Software-Engineering-2024-Group/Homework/blob/main/.github/workflows/hw2-autopep8.yml)
 ![Flake8](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/hw2-flake8.yml/badge.svg)
 ![Pylint](https://github.com/Software-Engineering-2024-Group/Homeworks/actions/workflows/hw2-pylint.yml/badge.svg)
 
