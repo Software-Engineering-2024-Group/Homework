@@ -1,0 +1,12 @@
+6 dataset1/filtered_10
+6 dataset1/filtered_20
+5 dataset1/filtered_14
+5 dataset1/filtered_24
+5 dataset1/filtered_4
+4 dataset1/filtered_2
+4 dataset1/filtered_22
+3 dataset1/filtered_12
+3 dataset1/filtered_13
+3 dataset1/filtered_23
+3 dataset1/filtered_3
+3 dataset1/filtered_30
