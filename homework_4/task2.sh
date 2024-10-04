@@ -13,6 +13,4 @@ grep -rl "sample" "$dataset_dir" | while read -r file; do
     if [ "$count" -ge 3 ]; then
         echo "$count $file"
     fi
-# b. Sort the Results
-# c. Substitute “file_” with “filtered_”
-done | sort -k1,1nr -k2,2 | uniq | awk '{ sub("file_", "filtered_", $2); print }' > filtered_files.txt
+done | sort -k1,1nr -k2,2 | uniq | awk '{ sub("file_", "filtered_", $2); print }' | tee filtered_files.txt
