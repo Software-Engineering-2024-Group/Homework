@@ -9,4 +9,5 @@ gawk '{print $1, $2}' | \
 gawk '{ "ls -l " substr($2, 1, index($2, ":")-1) " | gawk \047{print $5}\047" | getline size; print $1, size, substr($2, 1, index($2, ":")-1) }' | \
 sort -k1,1nr -k2,2nr | \
 gawk '{print $3}' | \
-sed 's/file/filtered/g'
+sed 's/file/filtered/g' | \
+sed 's|.*/||'
